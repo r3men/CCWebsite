@@ -15,7 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Learn Cybersecurity",
   description: "Template from Vercel.",
-  icons: "/favicon.png",
+  icons: {
+    icon: "/favicon.png",
+  }
 };
 
 export default function RootLayout({
