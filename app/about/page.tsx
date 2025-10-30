@@ -17,6 +17,15 @@ export default function About() {
             Inform individuals or companies of the importance of cybersecurity and how to safely protect against the dangers of the modern era.
           </p>
         </article>
+
+        <article>
+          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Sources Cited</h2>
+          <p className="text-gray-300 leading-relaxed">
+            <a href = "https://cyber.org" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </href>
+            <a href = "https://chatgpt.com" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </href>
+          </p>
+        </article>
+        
       </section>
 
       <footer className="border-t border-blue-900/40 py-6 text-center text-gray-500 text-sm">
