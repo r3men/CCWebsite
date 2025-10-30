@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Template from Vercel.",
   icons: {
     icon: "/favicon.png",
-  }
+  },
 };
 
 export default function RootLayout({
@@ -27,7 +27,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-black text-white">
-      <body className="bg-black text-white antialiased">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} font-sans bg-black text-white antialiased`}
+      >
         {children}
       </body>
     </html>
