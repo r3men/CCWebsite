@@ -22,7 +22,7 @@ export default function Home() {
           </Link>
 
           <a
-            href="#about"
+            href="/about"
             className="px-8 py-3 rounded-full border border-blue-500 text-blue-400 hover:bg-blue-500/10 transition-colors font-semibold"
           >
             Learn More
