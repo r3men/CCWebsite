@@ -21,8 +21,8 @@ export default function About() {
         <article>
           <h2 className="text-3xl font-semibold mb-4 text-blue-400">Sources Cited</h2>
           <p className="text-gray-300 leading-relaxed">
-            <a href = "https://cyber.org" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </href>
-            <a href = "https://chatgpt.com" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </href>
+            <a href = "https://cyber.org" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </a>
+            <a href = "https://chatgpt.com" target = "_blank" rel = "noopener referrer" className = "text-blue-400 hover:text-blue-300 underline transition-colors"> </a>
           </p>
         </article>
         
