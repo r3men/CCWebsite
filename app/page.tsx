@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="/learn"
-            className="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors !text-black font-semibold shadow-lg shadow-blue-600/30"
+            className="px-8 py-3 rounded-full border border-blue-500 text-blue-400 hover:bg-blue-500/10 transition-colors font-semibold"
           >
             Start Learning
           </Link>
