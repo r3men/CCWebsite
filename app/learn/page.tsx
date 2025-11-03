@@ -94,7 +94,7 @@ export default function Learn() {
             <h3 className="text-3xl font-semibold mb-2 text-blue-400">
               {topic.title}
             </h3>
-            <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 shadow-md hover:border-blue-700 transition-colors">
+            <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl pt-2 pb-6 px-6 shadow-md hover:border-blue-700 transition-colors">
               <p className="text-gray-300 leading-relaxed whitespace-pre-line">
                 {topic.content}
               </p>
