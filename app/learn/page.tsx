@@ -48,21 +48,21 @@ export default function Learn() {
         <ul className="space-y-3 mt-4">
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
-            <p className = "leading-relaxed>
+            <p className = "leading-relaxed">
               <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
               storage that must be encrypted and protected from unauthorized access.
             </p>
           </li>
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
-            <p className = "leading-relaxed>
+            <p className = "leading-relaxed">
               <strong>Data in Transit</strong> — Data being transferred between systems,
               requiring secure transmission protocols like HTTPS or VPNs.
             </p>
           </li>
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
-            <p className = "leading-relaxed>
+            <p className = "leading-relaxed">
               <strong>Data in Use</strong> — Data currently being processed or accessed,
               needing protection from unauthorized applications or processes.
             </p>
