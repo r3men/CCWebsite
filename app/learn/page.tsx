@@ -10,6 +10,7 @@ export default function Learn() {
           <li className="flex items-start gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
             <p>
+              The CIA Triad is an acronym that is representative of the three parts of data that are in great need of protection. Here is what each of them stand for:
               <strong>Confidentiality</strong> — Ensures that information is only accessible
               to authorized individuals and protected from unauthorized disclosure.
             </p>
