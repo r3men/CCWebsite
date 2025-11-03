@@ -1,61 +1,64 @@
+import { CheckCircle } from "lucide-react";
+
 export default function Learn() {
   const topics = [
     {
       title: "CIA Triad",
       id: "cia-triad",
-      content: `
-        The CIA Triad is an acronym used to represent the goal of network security. This goal pertains to the security of data. To create utmost network security, the fundamental data properties that need to be maintained are C (Confidentiality), I (Integrity), and A (Availability). Confidentiality refers ensuring that the data is not revealed, that it can only be accessed & viewed by authorized people. Integrity refers to keeping the data intact, ascertaining the data is not corrupted or modified. Finally, availability refers to the constant accessibility of data, allowing authorized users to reliaby access any information when needed. In the event of disruptions or threats, data backups and a solid recovery plan should be readily available. 
-      `,
+      content: (
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Confidentiality</strong> — Ensures that information is only accessible
+              to authorized individuals and protected from unauthorized disclosure.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Integrity</strong> — Keeps data accurate, consistent, and trustworthy by
+              preventing unauthorized modification.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Availability</strong> — Ensures data and systems remain accessible to
+              authorized users when needed, even in the event of disruptions.
+            </p>
+          </li>
+        </ul>
+      ),
     },
     {
       title: "3 States of Data",
       id: "states-of-data",
-      content: `
-        Data exists in three primary states: at rest, in transit, and in use. 
-        Protecting data in each state requires specific strategies — encryption, 
-        secure transfer protocols, and endpoint protections.
-      `,
-    },
-    {
-      title: "Authentication Types",
-      id: "authentication",
-      content: `
-        Authentication verifies a user's identity before granting access to resources. 
-        Common methods include passwords, biometrics, security tokens, and multifactor authentication.
-      `,
-    },
-    {
-      title: "Passwords",
-      id: "passwords",
-      content: `
-        Passwords are the most common authentication method, but they are also 
-        one of the most vulnerable. Strong password policies and password managers 
-        can help reduce risks.
-      `,
-    },
-    {
-      title: "Phishing",
-      id: "phishing",
-      content: `
-        Phishing is a type of social engineering attack where attackers trick individuals 
-        into revealing sensitive information by posing as trusted entities.
-      `,
-    },
-    {
-      title: "Social Engineering",
-      id: "social-engineering",
-      content: `
-        Social engineering manipulates people into divulging confidential information. 
-        Awareness and education are key defenses against these psychological attacks.
-      `,
-    },
-    {
-      title: "Potential Threats",
-      id: "potential-threats",
-      content: `
-        Cyber threats come in many forms — malware, ransomware, DDoS attacks, insider threats, and more. 
-        Understanding these helps in building effective defense mechanisms.
-      `,
+      content: (
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
+              storage that must be encrypted and protected from unauthorized access.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data in Transit</strong> — Data being transferred between systems,
+              requiring secure transmission protocols like HTTPS or VPNs.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data in Use</strong> — Data currently being processed or accessed,
+              needing protection from unauthorized applications or processes.
+            </p>
+          </li>
+        </ul>
+      ),
     },
   ];
 
@@ -91,13 +94,11 @@ export default function Learn() {
       <section className="max-w-5xl mx-auto px-6 py-16 space-y-20">
         {topics.map((topic) => (
           <article key={topic.id} id={topic.id} className="scroll-mt-24">
-            <h3 className="text-3xl font-semibold mb-2 text-blue-400">
+            <h3 className="text-3xl font-semibold mb-4 text-blue-400">
               {topic.title}
             </h3>
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl pt-0 pb-6 px-6 shadow-md hover:border-blue-700 transition-colors">
-              <p className="text-gray-300 leading-relaxed whitespace-pre-line">
-                {topic.content}
-              </p>
+              {topic.content}
             </div>
           </article>
         ))}
