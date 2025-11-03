@@ -13,21 +13,21 @@ export default function Learn() {
          
         <ul className="space-y-3 mt-4">
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Confidentiality</strong> — Ensures that information is only accessible
               to authorized individuals and protected from unauthorized disclosure.
             </p>
           </li>
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Integrity</strong> — Keeps data accurate, consistent, and trustworthy by
               preventing unauthorized modification.
             </p>
           </li>
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Availability</strong> — Ensures data and systems remain accessible to
               authorized users when needed, even in the event of disruptions.
@@ -47,21 +47,21 @@ export default function Learn() {
         </p>
         <ul className="space-y-3 mt-4">
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
               storage that must be encrypted and protected from unauthorized access.
             </p>
           </li>
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Data in Transit</strong> — Data being transferred between systems,
               requiring secure transmission protocols like HTTPS or VPNs.
             </p>
           </li>
           <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <CheckCircle className="text-blue-400 w-5 h-5" />
             <p>
               <strong>Data in Use</strong> — Data currently being processed or accessed,
               needing protection from unauthorized applications or processes.
