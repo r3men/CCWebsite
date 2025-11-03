@@ -7,7 +7,8 @@ export default function Learn() {
       id: "cia-triad",
       content: (
        <>
-        <p> The CIA Triad is an acronym that is representative of the three parts of data that are in great need of protection. Here is what each of them stand for: 
+        <p className = "mt-2"> 
+          The CIA Triad is an acronym that is representative of the three parts of data that are in great need of protection. Here is what each of them stand for: 
         </p>
          
         <ul className="space-y-3 mt-4">
@@ -40,6 +41,10 @@ export default function Learn() {
       title: "3 States of Data",
       id: "states-of-data",
       content: (
+       <>
+        <p className = "mt-2">
+          In order to safely protect the CIA of data, we must first learn the three states that data can exist in:
+        </p>
         <ul className="space-y-3 mt-4">
           <li className="flex items-start gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
@@ -63,6 +68,7 @@ export default function Learn() {
             </p>
           </li>
         </ul>
+       </>
       ),
     },
   ];
