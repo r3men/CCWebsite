@@ -6,7 +6,10 @@ export default function Learn() {
       title: "CIA Triad",
       id: "cia-triad",
       content: (
-       <p> The CIA Triad is an acronym that is representative of the three parts of data that are in great need of protection. Here is what each of them stand for: </p>
+       <>
+        <p> The CIA Triad is an acronym that is representative of the three parts of data that are in great need of protection. Here is what each of them stand for: 
+        </p>
+         
         <ul className="space-y-3 mt-4">
           <li className="flex items-start gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
@@ -30,6 +33,7 @@ export default function Learn() {
             </p>
           </li>
         </ul>
+       </>
       ),
     },
     {
