@@ -91,7 +91,7 @@ export default function Learn() {
       <section className="max-w-5xl mx-auto px-6 py-16 space-y-20">
         {topics.map((topic) => (
           <article key={topic.id} id={topic.id} className="scroll-mt-24">
-            <h3 className="text-3xl font-semibold mb-4 text-blue-400">
+            <h3 className="text-3xl font-semibold mb-2 text-blue-400">
               {topic.title}
             </h3>
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 shadow-md hover:border-blue-700 transition-colors">
