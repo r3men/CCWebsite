@@ -88,13 +88,13 @@ export default function Learn() {
           </li>
           <li className="flex items-start gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
-            <p>
+            <p className = "leading-relaxed">
               <strong>Something You Have</strong> — Examples include both physical possessions, such as smart cards, hardware tokens, and USB security keys, or intangible possessions such as online security codes via authenticator apps.
             </p>
           </li>
           <li className="flex items-start gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
-            <p>
+            <p className = "leading-relaxed">
               <strong>Something You Are</strong> — Relates to biometrics, which is based upon measurable physical characteristics to verify identity. Examples include fingerprint scans, facial recognition, voice, & iris scans. This type of authentication is known to be expensive due to requiring higher level technology to fully implement.
             </p>
           </li>
