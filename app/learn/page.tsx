@@ -71,6 +71,40 @@ export default function Learn() {
        </>
       ),
     },
+    {
+      title: "Different Types of Authentication",
+      id: "types-of-authentication",
+      content: (
+       <>
+        <p className = "mt-2">
+          There are several types of authentication, categorized based on 
+        </p>
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
+              storage that must be encrypted and protected from unauthorized access.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data in Transit</strong> — Data being transferred between systems,
+              requiring secure transmission protocols like HTTPS or VPNs.
+            </p>
+          </li>
+          <li className="flex items-start gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 mt-1" />
+            <p>
+              <strong>Data in Use</strong> — Data currently being processed or accessed,
+              needing protection from unauthorized applications or processes.
+            </p>
+          </li>
+        </ul>
+       </>
+      ),
+    },
   ];
 
   return (
