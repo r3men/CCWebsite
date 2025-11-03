@@ -12,23 +12,23 @@ export default function Learn() {
         </p>
          
         <ul className="space-y-3 mt-4">
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
               <strong>Confidentiality</strong> — Ensures that information is only accessible
               to authorized individuals and protected from unauthorized disclosure.
             </p>
           </li>
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
               <strong>Integrity</strong> — Keeps data accurate, consistent, and trustworthy by
               preventing unauthorized modification.
             </p>
           </li>
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
               <strong>Availability</strong> — Ensures data and systems remain accessible to
               authorized users when needed, even in the event of disruptions.
             </p>
@@ -46,23 +46,23 @@ export default function Learn() {
           In order to safely protect the CIA of data, we must first learn the three states that data can exist in:
         </p>
         <ul className="space-y-3 mt-4">
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed>
               <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
               storage that must be encrypted and protected from unauthorized access.
             </p>
           </li>
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed>
               <strong>Data in Transit</strong> — Data being transferred between systems,
               requiring secure transmission protocols like HTTPS or VPNs.
             </p>
           </li>
-          <li className="flex items-start gap-3">
-            <CheckCircle className="text-blue-400 w-5 h-5" />
-            <p>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed>
               <strong>Data in Use</strong> — Data currently being processed or accessed,
               needing protection from unauthorized applications or processes.
             </p>
