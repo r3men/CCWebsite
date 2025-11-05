@@ -20,7 +20,7 @@ export default function About() {
         
         <article>
           <h2 className="text-3xl font-semibold mb-4 text-blue-400">Sources Cited</h2>
-          <p className="text-gray-400 mb-4">
+          <p className="text-gray-300 mb-4">
             Below are the resources referenced in creating this educational content, along with notes on how each source was used:
           </p>
           <ul className="space-y-4">
