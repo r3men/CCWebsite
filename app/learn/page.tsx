@@ -160,7 +160,69 @@ export default function Learn() {
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
             <p className = "leading-relaxed">
-              <strong>URL Spoofing</strong> — Most phishing attacks contain links within the email, asking you to provide personal information in some sketchy website. Typically, the URLs of these links are malicious and do not point to a company's real website when hovered over. This is why you should always hover over any URLs that might lead you to malicious sites.
+              <strong>URL Spoofing</strong> — Most phishing attacks contain links within the email, asking you to provide personal information in some sketchy website. Typically, the URLs of these links are malicious and do not point to a company's real website when hovered over. This is why you should always hover over any URLs that you think might lead you to malicious sites.
+            </p>
+          </li>
+        </ul>
+       </>
+      ),
+    },
+    {
+      title: "Social Engineering",
+      id: "social-engineering",
+      content: (
+       <>
+        <p className = "mt-2">
+          Social engineering are threats specifically made pertaining to human factors within the technology environment. Because humans are susceptible to influence by other people (unlike technical defenses which are much stronger & less vulnerable), it makes social engineering so effective in the world of cybersecurity. But what specifically about human vulnerability makes it so effective?
+        </p>
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Wanting to Help</strong> — The action of helping someone alone makes any person feel better about themselves inside. Social engineering experts often abuse this by trying to manipulate the helpfulness of the average human. One example is Piggybacking, in which an authorized user may let an unauthorized user into a restricted area, simply because they want to help that person.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Avoiding Confrontation</strong> — Authorized people may feel uncomfortable with confronting or directly making contact with someone who they believe should not be in a restricted place. As a result, many of these people do not have the courage to go up and confront someone who, in their mind, should not have access to a restricted place. Another way of describing this is that people do not want to "make a scene". 
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Sloppy Mistakes</strong> — Sloppy mistakes are one of the main reasons why social engineering is so successful. Rather than needing to enter a secure system and obtaining information that way, humans are vulnerable to making silly mistakes such as leaving passwords directly out in the open, trashing (not shredding) important documents, and even leaving computers with authorized access unattended.
+            </p>
+          </li>
+        </ul>
+       </>
+      ),
+    },
+    {
+      title: "Potential Threats",
+      id: "potential-threats",
+      content: (
+       <>
+        <p className = "mt-2">
+          By not getting a good grasp on the explored concepts within this website, your company, or you, may find yourself becoming a victim to several types of attacks. This is why it is best to make sure you (as well as any employees) are well educated on basic cybersecurity principles that need to be addressed in such a greater capacity in the modern era. Here are some potential issues that could arise from an indifference to proper cybersecurity understanding:
+        </p>
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Stolen Personal Information</strong> — By not being able to identify phishing attacks, utilizing weak passwords, & being unaware of common social engineering techniques, you are putting yourself (and possibly your company) at a great risk of having personal information stolen and even leaked.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Account Hijacking</strong> — Not following essential practices for constructing passwords, not possessing proper authentication, & having a very weak understanding of phishing can all lead to you having your account stolen, manipulated, and possibly even destroyed or deleted.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Emotional & Mental Strain</strong> — Ultimately, if you do not have a basic understanding of the importance of cybersecurity in this technological age, you are putting yourself at risk of days, weeks, or even years of emotional & mental strain that can result from a variety of attacks made by users/people with malicious intent.
             </p>
           </li>
         </ul>
