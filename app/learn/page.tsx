@@ -236,9 +236,12 @@ export default function Learn() {
     <main className="min-h-screen bg-black text-gray-100 font-sans">
       <nav className="bg-zinc-900 border-b border-blue-800 sticky top-0 z-50 shadow-lg">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-blue-500">Learn Cybersecurity
-            <Link href = "/"> </Link>
+          <h1 className="text-2xl font-bold">
+            <Link href="/" className="text-blue-500 hover:text-blue-400 transition-colors duration-200">
+              Learn Cybersecurity
+            </Link>
           </h1>
+
           <ul className="hidden md:flex space-x-6 text-sm font-medium">
             {topics.map((topic) => (
               <li key={topic.id}>
