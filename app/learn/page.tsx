@@ -49,22 +49,19 @@ export default function Learn() {
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
             <p className = "leading-relaxed">
-              <strong>Data at Rest</strong> — Stored data in databases, drives, or cloud
-              storage that must be encrypted and protected from unauthorized access.
+              <strong>Data at Rest</strong> — Stored data in databases, files, hard drives, USB drives, memory, DVDs, etc.
             </p>
           </li>
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
             <p className = "leading-relaxed">
-              <strong>Data in Transit</strong> — Data being transferred between systems,
-              requiring secure transmission protocols like HTTPS or VPNs.
+              <strong>Data in Transit</strong> — Data being transferred between systems, file sharing via LAN, through the Internet, etc.
             </p>
           </li>
           <li className="flex items-center gap-3">
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
             <p className = "leading-relaxed">
-              <strong>Data in Use</strong> — Data currently being processed or accessed,
-              needing protection from unauthorized applications or processes.
+              <strong>Data in Use</strong> — Data currently being processed or accessed through file creation, usage in an application, data being processed/placed in memory, etc.
             </p>
           </li>
         </ul>
@@ -96,6 +93,74 @@ export default function Learn() {
             <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
             <p className = "leading-relaxed">
               <strong>Something You Are</strong> — Relates to biometrics, which is based upon measurable physical characteristics to verify identity. Examples include fingerprint scans, facial recognition, voice, & iris scans. This type of authentication is known to be expensive due to requiring higher level technology to fully implement.
+            </p>
+          </li>
+        </ul>
+       </>
+      ),
+    },
+    {
+      title: "Passwords",
+      id: "passwords",
+      content: (
+       <>
+        <p className = "mt-2">
+          Generally, there are guidelines that are meant to be followed when generating/creating a safe password. Here are the main guidelines:
+        </p>
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Personal Information</strong> — When creating a password, do not include any personal information about yourself that could put your account in jeopardy. If malicious users are able to obtain personal information about yourself, it is relatively easy for them to figure out your password.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Reusing Passwords</strong> — Passwords should not be reused across different websites or applications because if a malicious user knows the password to any of the websites you use, they can try that password for any other website you use, putting all your accounts in danger.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Originality</strong> — Create original, unique, & random passwords that are not taken directly from the dictionary or are common words. 
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Password Creation</strong> — When creating your password, make sure your password meets these criteria: (8-10 characters minimum, mix of uppercase & lowercase letters, & use of special characters/symbols)
+            </p>
+          </li>
+        </ul>
+       </>
+      ),
+    },
+    {
+      title: "Phishing",
+      id: "phishing",
+      content: (
+       <>
+        <p className = "mt-2">
+          Phishing is the use of bogus emails & websites to trick you into supplying an attacker or malicious user with personal/confidential information. However, there are some ways to identify phishing emails/attacks. Here are the easiest ways to do so:
+        </p>
+        <ul className="space-y-3 mt-4">
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Misspellings/Incorrect Grammar</strong> — Misspellings or incorrect grammar in emails are an indicator of a phishing attack. Some attackers do not check for mistakes when creating these malicious emails, while authorized companies hire professional writers to address users which will most likely not contain any grammar mistakes.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>Email Address not Matching Sender</strong> — Professional emails sent out by companies will contain email addresses that align with the sender name. On the other hand, phishing attacks usually have misalignment between sender name and email address, a strong indicator that the email is fake.
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <CheckCircle className="text-blue-400 w-5 h-5 flex-shrink-0" />
+            <p className = "leading-relaxed">
+              <strong>URL Spoofing</strong> — Most phishing attacks contain links within the email, asking you to provide personal information in some sketchy website. Typically, the URLs of these links are malicious and do not point to a company's real website when hovered over. This is why you should always hover over any URLs that might lead you to malicious sites.
             </p>
           </li>
         </ul>
